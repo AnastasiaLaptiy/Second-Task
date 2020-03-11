@@ -1,0 +1,11 @@
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SecondTask.exe
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SecondTask.deps.json
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SecondTask.runtimeconfig.json
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SecondTask.runtimeconfig.dev.json
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SecondTask.dll
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\SecondTask.pdb
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\SecondTask.csprojAssemblyReference.cache
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\SecondTask.AssemblyInfoInputs.cache
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\SecondTask.AssemblyInfo.cs
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\SecondTask.dll
+C:\Users\AstroMugiwara\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\SecondTask.pdb
