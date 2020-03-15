@@ -25,20 +25,32 @@ namespace SecondTask.ArraySorting
 
         public void SplittArray_v2()
         {
+            Console.WriteLine("another one: ");
             var arr = new int[] { 1, 2, 3, 4, 5 };
-            var result = arr.GroupBy(even => even % 2 == 0)
-                 .Select(numberItem => new { Number = numberItem.Key, Count = numberItem.Count(), arrayItem = numberItem.ToList() });
+            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem=>numberItem.ToList());
 
             foreach (var item in result)
             {
-                Console.WriteLine($"{item.Number}, {item.Count}");
-
-                foreach (var listItem in item.arrayItem)
+                foreach(var element in item)
                 {
-                    Console.WriteLine(listItem);
+                    Console.WriteLine(element);
+                }              
+            }
+        }
+
+        public void SplittArray_v3()
+        {
+            Console.WriteLine("another one: ");
+            var arr = new int[] { 1, 2, 3, 4, 5 };
+            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem => numberItem.ToList());
+
+            foreach (var item in result)
+            {
+                foreach (var element in item)
+                {
+                    Console.WriteLine(element);
                 }
             }
-
         }
     }
 }
