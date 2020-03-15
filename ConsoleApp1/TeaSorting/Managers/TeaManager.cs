@@ -23,10 +23,10 @@ namespace SecondTask.TeaSorting.Managers
         {
             List<TeaModel> listTeaModel = new List<TeaModel>();
 
-            listTeaModel.Add(new TeaModel { Id = 1, Name = "black tea", Country = "chinese", Grades = TeaGradesModel.mix });
-            listTeaModel.Add(new TeaModel { Id = 2, Name = "black tea", Country = "japanese", Grades = TeaGradesModel.white });
-            listTeaModel.Add(new TeaModel { Id = 3, Name = "green tea", Country = "swedish", Grades = TeaGradesModel.red });
-            listTeaModel.Add(new TeaModel { Id = 4, Name = "green tea", Country = "chinese", Grades = TeaGradesModel.red });
+            listTeaModel.Add(new TeaModel { Id = 1, Name = "black tea", Country = "chinese", Grades = TeaGradesModel.Mix });
+            listTeaModel.Add(new TeaModel { Id = 2, Name = "black tea", Country = "japanese", Grades = TeaGradesModel.White });
+            listTeaModel.Add(new TeaModel { Id = 3, Name = "green tea", Country = "swedish", Grades = TeaGradesModel.Red });
+            listTeaModel.Add(new TeaModel { Id = 4, Name = "green tea", Country = "chinese", Grades = TeaGradesModel.Red });
 
             return listTeaModel;
         }

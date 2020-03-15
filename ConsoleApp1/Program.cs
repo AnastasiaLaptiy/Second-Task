@@ -25,7 +25,9 @@ namespace SecondTask
 
             Console.WriteLine("Forth task:");
             ArrayManager arrayManager = new ArrayManager();
-            arrayManager.SplittArray();
+            arrayManager.SplittArray_v1();
+            arrayManager.SplittArray_v2();
+
             Console.ReadKey();
         }
     }

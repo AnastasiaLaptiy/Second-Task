@@ -2,10 +2,10 @@
 {
     public enum TeaGradesModel
     {
-        green,
-        black,
-        red,
-        white,
-        mix
+        Green,
+        Black,
+        Red,
+        White,
+        Mix
     }
 }
