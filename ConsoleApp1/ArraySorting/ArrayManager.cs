@@ -37,20 +37,5 @@ namespace SecondTask.ArraySorting
                 }
             }
         }
-
-        public void SplittArray_v3()
-        {
-            Console.WriteLine("another one: ");
-            var arr = new int[] { 1, 2, 3, 4, 5 };
-            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem => numberItem.ToArray());
-
-            foreach (var item in result)
-            {
-                foreach (var element in item)
-                {
-                    Console.WriteLine(element);
-                }
-            }
-        }
     }
 }
