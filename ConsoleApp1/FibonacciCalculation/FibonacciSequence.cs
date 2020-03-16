@@ -41,5 +41,23 @@ namespace SecondTask.FibonacciCalculation
                 Console.WriteLine(item);
             }
         }
+
+        public void FibonacciAggr(int n)
+        {
+            Console.WriteLine("Fibonacci sequence via LINQ v2:");
+            List<int> fibonacciList = new List<int>();
+            while (n > 0) { 
+                fibonacciList.Add(
+                Enumerable.Range(0, n).Skip(2).ToList().Aggregate(new { Previous = 1, Current = 1 },
+                (element, idx) => new { Previous = element.Current, Current = element.Current + element.Previous }).Current);
+
+                n--;
+            }
+
+            foreach (var item in fibonacciList)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }

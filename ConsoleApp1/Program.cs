@@ -14,6 +14,7 @@ namespace SecondTask
             FibonacciSequence fibonacciSequence = new FibonacciSequence();
             fibonacciSequence.FibonacciCounter(10);
             fibonacciSequence.FibonacciCounterLINQ(11);
+            fibonacciSequence.FibonacciAggr(11);
 
             Console.WriteLine("Second task:");
             Factorial factorialResult = new Factorial();

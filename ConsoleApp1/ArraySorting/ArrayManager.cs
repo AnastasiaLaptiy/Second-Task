@@ -27,14 +27,14 @@ namespace SecondTask.ArraySorting
         {
             Console.WriteLine("another one: ");
             var arr = new int[] { 1, 2, 3, 4, 5 };
-            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem=>numberItem.ToList());
+            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem => numberItem.ToList());
 
             foreach (var item in result)
             {
-                foreach(var element in item)
+                foreach (var element in item)
                 {
                     Console.WriteLine(element);
-                }              
+                }
             }
         }
 
@@ -42,7 +42,7 @@ namespace SecondTask.ArraySorting
         {
             Console.WriteLine("another one: ");
             var arr = new int[] { 1, 2, 3, 4, 5 };
-            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem => numberItem.ToList());
+            var result = arr.GroupBy(even => even % 2 == 0).Select(numberItem => numberItem.ToArray());
 
             foreach (var item in result)
             {
